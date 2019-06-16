@@ -1,13 +1,13 @@
 -------------------------------------------------------------------------------------------------
 |												|
-|This repository contains two versions of MD code (Especially for the Ar crystal simulation).	|
+|This repository contains four versions of MD code (Especially for the Ar crystal simulation).	|
 |												|
-|(1) one original version of non-homogeneuos FCC Ar crstal.					|
+|(1) two original version of (non-)homogeneuos FCC Ar crstal.					|
 |												|
 |	The original version uses Verlet iterator to solve the Newton equations of motion.	|
 |	PBC condition is applied.								|
 |												|
-|(2) one optimized version of non-homogeneuos FCC Ar crystal.					|
+|(2) two optimized version of (non-)homogeneuos FCC Ar crystal.					|
 |												|
 |	The optimized version pluses the neighbor-list method and is parallelized.		|
 |												|
