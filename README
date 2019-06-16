@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------------------------
+|												|
+|This repository contains two versions of MD code (Especially for the Ar crystal simulation).	|
+|												|
+|(1) one original version of non-homogeneuos FCC Ar crstal.					|
+|												|
+|	The original version uses Verlet iterator to solve the Newton equations of motion.	|
+|	PBC condition is applied.								|
+|												|
+|(2) one optimized version of non-homogeneuos FCC Ar crystal.					|
+|												|
+|	The optimized version pluses the neighbor-list method and is parallelized.		|
+|												|
+|-----------------------------------------------------------------------------------------------|
+|												|
+|Compile the main/ module file with Intel/gcc compilor mpi version.	                	|
+|							Designed & Edited: Shi-Lin WANG,2019 	|
+-------------------------------------------------------------------------------------------------
